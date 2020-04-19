@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0px;
+    background-image: url("images/abundance-agriculture-fresh-healthy-533280.jpg");
+    background-position: center; 
+    background-size: cover; 
+}
+
+button {
+    background-color: white;
+    border: none;
+    font-size: 24px;
+}
+
+label {
+    font-size: 24px;
+}
+
+
+#time {
+    margin-top: 70px;
+    margin-bottom: 0px;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 1fr 500px 1fr;
+}
+
+.timer {
+    display: grid; 
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+    grid-column-start: 2;
+    grid-row-start: 2;
+    background-color: #FFF;
+    opacity: 0.9;
+    box-shadow: 0px 0px 10px #000
+
+}
+
+.timer-top {
+    font-size: 80px;
+    justify-self: center;
+    align-self: center;
+}
+
+.timer-middle {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+
+}
+
+.timerbox {
+    display: flex;
+    justify-content: center;
+
+}
+
+.work, .rest {
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#pomodoro, #rest {
+    width: 80px;
+    height: 60px;
+    font-size: 30px;
+}
+
+.timer-bottom {
+    display: flex; 
+    justify-content: center; 
+    flex-wrap: wrap;
+    align-content: center;
+    margin-bottom: 50px;
+}
+
+button {
+    height: 60px;
+    width: 200px;
+}
+
+
